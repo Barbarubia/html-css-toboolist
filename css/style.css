@@ -13,6 +13,7 @@ body {
 header {
     background-color: white;
     padding: 10px 20px;
+    line-height: 1;
 }
 
 .logo {
@@ -20,7 +21,6 @@ header {
 }
 
 .page-title {
-    display: inline-block;
     font-size: 2em;
     font-weight: 600;
     padding: 0;
@@ -53,25 +53,97 @@ nav {
 
 .add-section-button {
     background-color: transparent;
-    color: lightgrey;
-    border-color: lightgrey;
+    color: #dcdfe2;
+    border-color: #dcdfe2;
 }
 
 main {
-    padding: 50px;
+    padding: 30px 50px;
 }
 
-.done-symbol,.undone-symbol,.task-name,.task-category {
+section {
+    margin-bottom: 2em;
+}
+
+.section-name {
+    margin-bottom: 0.5em;
+}
+
+.down-arrow {
+    vertical-align: middle;  
+}
+
+.section-name h2 {
+    display: inline;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin-bottom: 1em;
+}
+
+.done-symbol,.undone-symbol,.task-name,.task-category-label {
     display: inline-block;
     vertical-align: middle;
 }
 
 .done-symbol {
-    font-size: 0.5em;
     width: 1.5em;
     height: 1.5em;
+    font-size: 0.5em;
     text-align: center;
-    color: green;
-    border: 1px solid green;
+    color: #64c0a9;
+    font-weight: 700;
+    border: 1px solid #64c0a9;
     border-radius: 50%;
+}
+
+.undone-symbol {
+    width: 1.5em;
+    height: 1.5em;
+    font-size: 0.5em;
+    text-align: center;
+    color: #ee6c65;
+    font-weight: 700;
+    border: 1px solid #ee6c65;
+    border-radius: 50%;
+}
+
+.task-name {
+    font-size: 0.8em;
+}
+
+.task-category-label {
+    color: white;
+    font-size: 0.5em;
+    padding: 5px 10px;
+    border-radius: 8px;
+}
+
+.editorial-label {
+    background-color: #45abea;
+}
+
+.q1goals-label {
+    background-color: #9c72e4;
+}
+
+.recruiting-label {
+    background-color: #64c0a9;
+}
+
+.mobile-label {
+    background-color: #f29e33;
+}
+
+.website-label {
+    background-color: #d863a1;
+}
+
+.sales-label {
+    background-color: #b0c926;
 }
