@@ -56,3 +56,22 @@ nav {
     color: lightgrey;
     border-color: lightgrey;
 }
+
+main {
+    padding: 50px;
+}
+
+.done-symbol,.undone-symbol,.task-name,.task-category {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.done-symbol {
+    font-size: 0.5em;
+    width: 1.5em;
+    height: 1.5em;
+    text-align: center;
+    color: green;
+    border: 1px solid green;
+    border-radius: 50%;
+}
